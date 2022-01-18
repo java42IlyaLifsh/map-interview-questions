@@ -1,4 +1,6 @@
 package telran.util;
+//IlyaL HW31
+
 //all methods should be written with complexity O[1]
 public class MyArray {
 //TODO encapsulation
