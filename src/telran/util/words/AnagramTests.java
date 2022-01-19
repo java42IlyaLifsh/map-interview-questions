@@ -1,4 +1,5 @@
 package telran.util.words;
+
 //IlyaL HW31
 import static org.junit.jupiter.api.Assertions.*;
 import static telran.util.words.Anagram.*;

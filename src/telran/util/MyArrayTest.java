@@ -1,5 +1,6 @@
 package telran.util;
-//IlyaL HW31
+//IlyaL HW31  
+
 import static org.junit.jupiter.api.Assertions.*;
 
 import org.junit.jupiter.api.BeforeEach;
@@ -7,7 +8,7 @@ import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
 class MyArrayTest {
-	int DEFULT_VALUE = 20;
+	int DEFAULT_VALUE = 20;
 	int ARRAY_LENGTH = 30;
 	MyArray myArray;
 
@@ -26,9 +27,9 @@ class MyArrayTest {
 	@Test
 	void testSetValue() {
 		assertEquals(0, myArray.getValueAt(ARRAY_LENGTH-1));
-		myArray.setValue(DEFULT_VALUE);
+		myArray.setValue(DEFAULT_VALUE);
 		assertEquals(myArray.getValueAt(ARRAY_LENGTH-1), myArray.getValueAt(0));
-		assertEquals(DEFULT_VALUE, myArray.getValueAt(ARRAY_LENGTH-1));
+		assertEquals(DEFAULT_VALUE, myArray.getValueAt(ARRAY_LENGTH-1));
 	}
 
 	@Test
