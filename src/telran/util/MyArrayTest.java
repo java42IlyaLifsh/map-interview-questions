@@ -4,6 +4,8 @@ import static org.junit.jupiter.api.Assertions.*;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
+//V.R. OK
+
 class MyArrayTest {
 	int INITIAL_VALUE = 0;
 	int DEFAULT_VALUE = 5;

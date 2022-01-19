@@ -2,6 +2,7 @@ package telran.util.words;
 import java.util.HashMap;
 import java.util.Map;
 //IlyaL HW31
+// V.R. OK
 public class Anagram {
 /**
  * 

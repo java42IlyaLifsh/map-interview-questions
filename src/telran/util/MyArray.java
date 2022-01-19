@@ -2,6 +2,8 @@ package telran.util;
 import java.util.HashMap;
 //IlyaL HW31
 
+// V.R. OK
+
 //all methods should be written with complexity O[1]
 public class MyArray {
 
