@@ -1,12 +1,8 @@
 package telran.util.words;
-
 //IlyaL HW31
 import static org.junit.jupiter.api.Assertions.*;
 import static telran.util.words.Anagram.*;
-
-import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
-
 class AnagramTests {
 String word = "Hello";
 	

@@ -1,8 +1,5 @@
 package telran.util;
-
-
 import java.util.HashMap;
-
 //IlyaL HW31
 
 //all methods should be written with complexity O[1]
@@ -37,9 +34,7 @@ public class MyArray {
 	 */
 	public int getValueAt(int index) {
 		
-		if(index >= length || index<0) {
-			throw new ArrayIndexOutOfBoundsException();
-		}
+		if(index >= length || index<0) 	throw new ArrayIndexOutOfBoundsException();
 		return numbers.getOrDefault(index, defaultValue);
 	}
 	/**
@@ -50,9 +45,7 @@ public class MyArray {
 	 */
 	public void setValueAt(int index, int value) {
 		
-		if(index >= length || index<0) {
-			throw new ArrayIndexOutOfBoundsException();
-		}
+		if(index >= length || index<0) throw new ArrayIndexOutOfBoundsException();
 		numbers.put(index, value);
 	}
 }
